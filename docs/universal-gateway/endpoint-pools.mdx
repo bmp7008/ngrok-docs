@@ -16,22 +16,24 @@ developer preview](https://dashboard.ngrok.com/developer-preview).
 
 Endpoints Pools make load balancing dead simple. When your create two endpoints
 with the same URL (and binding), those endpoints automatically "pool" together
-and traffic to their URL is balanced among them.
+and traffic to their URL is balanced among them. You have the flexibility to
+define custom balancing strategies and you can even pool endpoints with
+different Traffic Policies.
 
 Pooling can be enabled or disabled on a per-endpoint basis.
 
-## When should I use Endpoint Pools?
+## When to use Endpoint Pools
 
-Endpoint pools are good choice for:
+Endpoint pools are good choice when you want to:
 
-- Load balancing between multiple replicas of the same application
-- Load balancing to apps running in different cloud providers or even on-prem datacenters
-- Switching between cloud endpoints and agent endpoints with zero downtime
-- Blue-green deployment strategies of new software
-- A/B testing different applications
-- Balancing against a new endpoint policy
-- Canary deployments
-- Making high risk policy changes low risk
+- Load balance among multiple replicas of the same application, even running in
+  different cloud providers, on-prem, etc.
+- Switch from agent endpoints to cloud endpoints with no downtime (or
+  vice-versa)
+- Implement blue-green deployments to reduce risk and rollback times
+- Deploy canary version of your application
+- A/B test different version of your apps with blue-green deployments
+- Gradually roll out changes to an endpoint's Traffic Policy
 
 ## Quickstart
 
