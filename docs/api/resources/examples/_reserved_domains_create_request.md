@@ -8,6 +8,6 @@ curl \
 -H "Authorization: Bearer {API_KEY}" \
 -H "Content-Type: application/json" \
 -H "Ngrok-Version: 2" \
--d '{"certificate_id":"cert_2rwwiJpwl6XDu1WKzHVQuLm5oPo","domain":"myapp.mydomain.com","region":"us"}' \
+-d '{"certificate_id":"cert_2s1d9qfhxJlZv8HBBYZkxEX0Lhb","domain":"myapp.mydomain.com","region":"us"}' \
 https://api.ngrok.com/reserved_domains
 ```

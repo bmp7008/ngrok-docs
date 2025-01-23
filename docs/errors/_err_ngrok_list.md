@@ -5239,6 +5239,14 @@
     </tr>
     <tr>
       <td>
+        <a id="ERR_NGROK_2247" href="/docs/errors/err_ngrok_2247">ERR_NGROK_2247</a>
+      </td>
+      <td class="pre-wrapped">
+        Already validated url didn't parse during <code>&lt;STEP&gt;</code> step: <code>&lt;URL&gt;</code> <code>&lt;ERR&gt;</code>
+      </td>
+    </tr>
+    <tr>
+      <td>
         <a id="ERR_NGROK_3002" href="/docs/errors/err_ngrok_3002">ERR_NGROK_3002</a>
       </td>
       <td class="pre-wrapped">
